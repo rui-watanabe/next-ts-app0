@@ -5,11 +5,7 @@ import { Header } from '../components/Header/Header'
 export default function Front() {
   return (
     <>
-      <Head>
-        <title>Next App</title>
-      </Head>
-      <main>Hello Next App</main>
-      <Header />
+      <h1>wow</h1>
     </>
   )
 }

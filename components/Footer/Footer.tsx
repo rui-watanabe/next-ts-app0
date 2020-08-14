@@ -1,5 +1,6 @@
 import React from 'react'
-import { Center, Container } from '../HeaderFooterStyle/style'
+import { Container } from './style'
+import { Center } from '../Center/style'
 import Link from 'next/link'
 
 export const Footer: React.FC = () => {
