@@ -22,8 +22,8 @@ export const GlobalStyle = createGlobalStyle<MainThemeProps>`
   *, *::after,
   *::before { box-sizing: border-box; }
   h1, h2, h3, h4, h5, h6 { margin: 0; }
-  a { color: ${({ theme }) =>
-    theme.colors.blue} } a:hover { color: ${theme}) => theme.colors.pink} }
+  a { color: ${({ theme }) => theme.colors.blue} }
+  a:hover { color: ${({ theme }) => theme.colors.pink} }
   .main {
     padding: 70px 0 20px; min-height: calc(100vh - 50px);
   }
